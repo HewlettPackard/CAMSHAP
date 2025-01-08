@@ -1,0 +1,56 @@
+{
+    "default" :{
+        "freq" : "1GHz",
+        "linkLatency" : "10ps"
+    },
+    "node" :{
+        "numPort" : 4,
+        "numLevel" : 3,
+        "numCore" : 16,
+        "numCol" : 128,
+        "numRow" : 256
+    },
+    "control_node" :{
+        "param":{}
+    },
+    "control_tile" :{
+        "param":{}
+    },
+    "control_core" :{
+        "param":{}
+    },
+    "router" :{
+        "param":{}
+    },
+    "acam" :{
+        "param":{
+            "latency" : 4,
+            "gBit" : 4,
+            "gMax" : 100e-6,
+            "gMin" : 1e-6,
+            "gHRS" : 1e-8,
+            "gLRS" : 110e-6,
+            "Cml" : 1.9e-15,
+            "Cpre" : 40.95e-15,
+            "Cmlso" : 50.0e-15,
+            "Cdl" : 0.324e-15,
+            "Rw" : 9.5625,
+            "K1" : 100e-6,
+            "Vth" : 360e-3,
+            "Vml" : 0.6,
+            "Vns" : 0.0,
+            "Vsl" : 0.8,
+            "Vdd" : 0.5,
+
+            "staticW_reg" : 2.3e-7,
+            "dynamicW_reg" : 8.17e-6,
+            "Junit" : 1e-15
+        }
+    },
+    "mmr" : {
+        "param":{}
+    },
+    "mpe" : {
+        "param":{}
+    }
+}
