@@ -1,0 +1,27 @@
+{
+    "numTest": 100,
+    "numTestOffset": 0,
+    "numFeature": 10,
+    "numBase": 100,
+    "numClass" : 1,
+    "bitQuant": 8,
+    "noiseP": 0.0,
+    "valueFactor": 10,
+    "beginCore": [
+        0
+    ],    
+    "offsetPartialSHAP" : 0,
+    "offsetSHAP" : 4096,
+    "offsetNodeSample" : 8192,
+    "offsetTileSample" : 0,
+    "offsetTileBase" : 128,
+    "offsetTileResult" : 16528,
+    "offsetCoreSample" : 128,
+    "offsetCoreBase" : 256,
+    "offsetCAM" : 0,
+    "offsetValue" : 640,
+    "offsetWeight" : 896,
+    "verbose" : 0,
+    "mask" : 0,
+    "logDir" : "./log/"
+}

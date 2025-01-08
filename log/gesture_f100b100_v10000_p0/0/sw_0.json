@@ -1,0 +1,33 @@
+{
+    "numTest": 100,
+    "numTestOffset": 0,
+    "numFeature": 32,
+    "numBase": 100,
+    "numClass": 5,
+    "bitQuant": 8,
+    "noiseP": 0.0,
+    "valueFactor": 10000,
+    "beginCore": [
+        0,
+        192,
+        384,
+        576,
+        768
+    ],
+    "offsetPartialSHAP": 0,
+    "offsetSHAP": 4096,
+    "offsetNodeSample": 8192,
+    "offsetTileSample": 0,
+    "offsetTileBase": 128,
+    "offsetTileResult": 16528,
+    "offsetCoreSample": 128,
+    "offsetCoreBase": 256,
+    "offsetCAM": 0,
+    "offsetValue": 640,
+    "offsetWeight": 896,
+    "mapScheme": "continuous",
+    "numTreePerCore": 1,
+    "verbose": 0,
+    "mask": 0,
+    "logDir": "./log/gesture_f100b100_v10000_p0/0/raw/"
+}
